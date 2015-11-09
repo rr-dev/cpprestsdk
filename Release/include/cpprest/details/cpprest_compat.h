@@ -86,6 +86,11 @@
 #endif
 
 
+// ** rnw ** hack for static lib
+#ifndef _NO_ASYNCRTIMP
+#define _NO_ASYNCRTIMP
+#endif
+
 #ifdef _NO_ASYNCRTIMP
 #define _ASYNCRTIMP
 #else
